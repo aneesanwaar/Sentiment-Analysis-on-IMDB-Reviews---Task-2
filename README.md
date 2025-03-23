@@ -1,10 +1,10 @@
-Sentiment Analysis on IMDB Reviews
+# Sentiment Analysis on IMDB Reviews
 
-Project Overview:
+## Project Overview:
 
 This project builds a Sentiment Analysis Model using IMDB movie reviews to classify text as positive or negative. The model is trained using TF-IDF vectorization and a Logistic Regression classifier.
 
-Project Steps
+## Project Steps
 
 1. Data Collection
 
@@ -54,9 +54,8 @@ Review: "True to the book. Entertaining and fun."
 Predicted Sentiment: Positive
 
 
-How to Run the Project
+## How to Run the Project
 
-This project is developed and tested in Google Colab.
 
 Step 1: Open the Notebook
 
@@ -64,21 +63,21 @@ Open Google Colab and upload the .ipynb file.
 
 Or, run locally in Jupyter Notebook using:
 
+```
 jupyter notebook
-
+```
 Step 2: Install Dependencies
 
-If using Jupyter Notebook, install the required Python libraries:
-
+```
 pip install numpy pandas scikit-learn nltk tensorflow-datasets
-
+```
 
 step 3: Run All Cells
 
 Simply run each cell in order, following the step-by-step workflow in the notebook.
 
 
-Observations:
+## Observations:
 
 1.The model achieves 87.9% accuracy using TF-IDF and Logistic Regression.
 2.The model successfully predicts positive and negative sentiments.
@@ -86,7 +85,7 @@ Observations:
 
 
 
-Credits & References:
+## Credits and References:
 
 Dataset: IMDB Reviews on TensorFlow Datasets
 
