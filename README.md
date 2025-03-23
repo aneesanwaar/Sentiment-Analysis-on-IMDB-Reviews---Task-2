@@ -6,12 +6,12 @@ This project builds a Sentiment Analysis Model using IMDB movie reviews to class
 
 ## Project Steps
 
-1. Data Collection
+### 1. Data Collection
 
 - I used the IMDB Reviews dataset from `tensorflow_datasets`.
 - The dataset contains 50,000 labeled movie reviews (25,000 for training, 25,000 for testing).
 
-2. Text Preprocessing
+### 2. Text Preprocessing
 
 To improve accuracy, I cleaned the text by:
 
@@ -19,19 +19,19 @@ To improve accuracy, I cleaned the text by:
 - Stopword Removal: Removing common words like "the", "is", "and".
 - Lemmatization: Converting words to their root form (e.g., "running" → "run").
 
-3. Feature Engineering
+### 3. Feature Engineering
 
 I converted text into a numerical format using TF-IDF (Term Frequency - Inverse Document Frequency).
 
 - Limited vocabulary to 5000 most important words.
 - Converted reviews into a matrix of word importance scores.
 
-4. Model Training
+### 4. Model Training
 
 - I trained a Logistic Regression classifier using the transformed text data.
 - The model was fitted on the training set (25,000 reviews).
 
-5. Model Evaluation
+### 5. Model Evaluation
 
 I evaluated the model using:
 
@@ -42,7 +42,7 @@ Sentiment	Precision	Recall	F1-score
 Negative	0.88	0.88	0.88
 Positive	0.88	0.88	0.88
 
-6. Testing the Model
+### 6. Testing the Model
 
 I tested the model on new, unseen text reviews. Example outputs:
 
