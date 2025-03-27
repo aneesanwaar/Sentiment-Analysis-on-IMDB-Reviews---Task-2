@@ -80,7 +80,9 @@ Simply run each cell in order, following the step-by-step workflow in the notebo
 ## Observations:
 
 1.The model achieves 87.9% accuracy using TF-IDF and Logistic Regression.
+
 2.The model successfully predicts positive and negative sentiments.
+
 3.A few edge cases might be misclassified (e.g. sarcasm, neutral reviews).
 
 
